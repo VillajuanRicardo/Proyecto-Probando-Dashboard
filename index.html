@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="cssfontAwesone/all.min.css">
+    <title>Bienvenido VIllajuan</title>
+
+</head>
+<body>
+    <!-- https://seantheme.com/color-admin/admin/transparent/index.html -->
+    
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__titulo-logo">
+                <div class="header__nombre">
+                    <i class="fab fa-500px"></i>
+                    <p><span>Color</span> Admin</p>
+                </div>
+                <div class="header__icon-menu" id="btn-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="header__opciones-usuario">  
+                <div class="header__buscar">
+                    <input type="text" placeholder="Enter Keyword">
+                </div>   
+                <div class="header__canpana">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="header__imagen">
+                    <img src="img/perfil.jpg" alt="">
+                </div>
+            </div>
+            <nav class="header__nav" id="header__nav">
+                <div class="header__nav-imagen">
+                    <img src="img/perfil.jpg" alt="">
+                </div>
+                <div class="header__nav-subtitulos">
+                    <h4>Villajuan Ricardo</h4>
+                    <p>Front end developer</p>
+                </div>
+                <p>Navigation</p>
+                <ul class="header__menu">
+                    <li class="menu-item"><i class="fas fa-border-all"></i><a href="#">Dashboard</a></li>
+                    <li class="menu-item"><i class="fas fa-envelope-open"></i><a href="#">Email</a></li>
+                    <li class="menu-item"><i class="fas fa-cheese"></i><a href="#">Widgets</a></li>
+                    <li class="menu-item"><i class="fab fa-uikit"></i><a href="#">UI Elements</a></li>
+                    <li class="menu-item"><i class="fab fa-bootstrap"></i><a href="#">Bootstrap</a></li>
+                    <li class="menu-item"><i class="fas fa-random"></i><a href="#">Form Stuff</a></li>
+                    <li class="menu-item"><i class="fas fa-table"></i><a href="#">Tables</a></li>
+                    <li class="menu-item"><i class="fab fa-fedora"></i><a href="#">POS System</a></li>
+                    <li class="menu-item"><i class="fab fa-font-awesome"></i><a href="#">Front End</a></li>
+                    <li class="menu-item"><i class="fas fa-gopuram"></i><a href="#">Email Template</a></li>
+
+                    <li class="menu-item"><i class="fas fa-chart-pie"></i><a href="#">Chart</a></li>
+                    <li class="menu-item"><i class="fas fa-calendar-week"></i><a href="#">Calendar</a></li>
+                    <li class="menu-item"><i class="fas fa-map-pin"></i><a href="#">Map</a></li>
+                    <li class="menu-item"><i class="fab fa-galactic-senate"></i><a href="#">Gallery</a></li>
+                    <li class="menu-item"><i class="fas fa-pager"></i><a href="#">Page Options</a></li>
+
+                    <li class="menu-item"><i class="fas fa-dungeon"></i><a href="#">Extra</a></li>
+                    <li class="menu-item"><i class="fas fa-sign-in-alt"></i><a href="#">Login & Register</a></li>
+                    <li class="menu-item"><i class="fas fa-code-branch"></i><a href="#">Version</a></li>
+                    <li class="menu-item"><i class="fab fa-hire-a-helper"></i><a href="#">Helper</a></li>
+                    <li class="menu-item"><i class="fas fa-level-up-alt"></i><a href="#">Menu Level</a></li>
+                </ul>
+            </nav>
+        </div>   
+    </header>
+    <!-- Termina El menu e inicia la Parte principal -->
+
+    <main>
+        <div class="main__contenedor">
+            <section class="dashboard">
+                <p><span>Home</span> / Dasboard</p>
+                <div class="dashboard__titulo">
+
+                    <h1>DashBoard <span>header small text goes here..</span></h1>
+                    <div class="dashboard-caja">
+                        <div class="dashboard-caja__info">
+                            <div class="dashboard__visitors">
+                                <h3>TOTAL VISITORS</h3>
+                                <h1>3,291,922</h1>
+                            </div>
+                            <div class="dashboard__png">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                        </div>
+                        <div class="dashboard-caja__detail">
+                            <p>View Detail</p>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-caja">
+                        <div class="dashboard-caja__info">
+                            <div class="dashboard__visitors">
+                                <h3>BOUNCE RATE</h3>
+                                <h1>20.44%</h1>
+                            </div>
+                            <div class="dashboard__png">
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="dashboard-caja__detail">
+                            <p>View Detail</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-caja">
+                        <div class="dashboard-caja__info">
+                            <div class="dashboard__visitors">
+                                <h3>UNIQUE VISITOR</h3>
+                                <h1>1,291,922</h1>
+                            </div>
+                            <div class="dashboard__png">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                        <div class="dashboard-caja__detail">
+                            <p>View Detail</p>
+                        </div>
+                    </div>
+
+
+                    <div class="dashboard-caja">
+                        <div class="dashboard-caja__info">
+                            <div class="dashboard__visitors">
+                                <h3>AVG TIME ON SITE</h3>
+                                <h1>00:12:23</h1>
+                            </div>
+                            <div class="dashboard__png">
+                                <i class="far fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="dashboard-caja__detail">
+                            <p>View Detail</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="grafico">
+                <article class="grafico-lineal">
+                    <div class="grafico__caja-titulo">
+                        <div class="grafico__titulo">
+                            <p>Website Analytics (Last 7 Days)</p>
+                        </div>
+                        <div class="caja__botones">
+                            <i class="fas fa-expand"></i>
+                            <i class="fas fa-undo-alt"></i>
+                            <i class="far fa-window-minimize"></i>
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <canvas id="myChart" width="400" height="400" style="background-color: #00000048"></canvas>
+                </article>
+
+                <article class="grafico-lineal">
+                    <div class="grafico__caja-titulo">
+                        <div class="grafico__titulo">
+                            <p>Analytics Details</p>
+                        </div>
+                        <div class="caja__botones">
+                            <i class="fas fa-expand"></i>
+                            <i class="fas fa-undo-alt"></i>
+                            <i class="far fa-window-minimize"></i>
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <!-- Tablaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+                    <table class="table">
+                        <tr class="table__titulos">
+                            <td>Source</td>
+                            <td>Total</td>
+                            <td>Trend</td>
+                        </tr>
+                        
+                        <tr class="table__columnas">
+                            <td>
+                                <p class="table__columnas-texto">Unique Visitor</p>
+                            </td>    
+                            <td>
+                                <p class="table__columnas-numero">13,203</p>
+                            </td>
+                            <td>
+                                <div class="table__sparkline">
+                                    <canvas id="sparkline-Unique-Visitor" style="width: 97%;height: 20px; margin: auto;"></canvas>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="table__columnas">
+                            <td>
+                                <p class="table__columnas-texto">Bounce Rate</p>
+                            </td>
+                            <td>
+                                <p class="table__columnas-numero">28.2%</p>
+                            </td>
+                            <td>
+                                <div class="table__sparkline">
+                                    <canvas id="sparkline-Bounce-Rate" style="width: 97%;height: 20px; margin: auto;"></canvas>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="table__columnas">
+                            <td>
+                                <p class="table__columnas-texto">Total Page Views</p>
+                            </td>
+                            <td>
+                                <p class="table__columnas-numero">1,230,030</p>
+                            </td>
+                            <td>
+                                <div class="table__sparkline">
+                                    <canvas id="sparkline-Total-Page" style="width: 97%;height: 20px; margin: auto;"></canvas>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="table__columnas">
+                            <td>
+                                <p class="table__columnas-texto">Avg Time On Site</p>
+                            </td>
+                            <td>
+                                <p class="table__columnas-numero">00:03:45</p>
+                            </td>
+                            <td>
+                                <div class="table__sparkline">
+                                    <canvas id="sparkline-Avg-Time" style="width: 97%;height: 20px; margin: auto;"></canvas>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="table__columnas">
+                            <td>
+                                <p class="table__columnas-texto">% New Visits</p>
+                            </td>
+                            <td>
+                                <p class="table__columnas-numero">40.5%</p>
+                            </td>
+                            <td>
+                                <div class="table__sparkline">
+                                    <canvas id="sparkline-New-Visit" style="width: 97%;height: 20px; margin: auto;"></canvas>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="table__columnas-ultimo">
+                            <td>
+                                <p class="table__columnas-texto">Return Visitors</p>
+                            </td>
+                            <td>
+                                <p class="table__columnas-numero">73.4%</p>
+                            </td>
+                            <td>
+                                <div class="table__sparkline">
+                                    <canvas id="sparkline-Return-Visitors" style="width: 97%;height: 20px; margin: auto;"></canvas>
+                                </div>
+                            </td>
+                        </tr>     
+                    </table>
+                    <!-- Cierra la tabla-------------------- -->
+                    
+                </article>
+
+                
+            </section>
+            <section class="archivos">
+                <div class="archivos__menutabs">
+                    <div class="archivos__menutabs-foto">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="archivos__menutabs-papelera">
+                        <i class="fas fa-trash"></i>
+                    </div>
+                    <div class="archivos__menutabs-mensajeria">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="js/MenuDesplegable.js"></script>
+    <script src="js/Graficos.js"></script>
+</body>
+</html>

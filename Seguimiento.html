@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="ProbandoCodigo/nuevosEstilos.css">
+    <link rel="stylesheet" href="../cssfontAwesone/all.min.css">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <td>Source</td>
+            <td>Total</td>
+            <td>Trend</td>
+        </tr>
+        
+        <tr>
+            <td>
+                <span>Unique Visitor</span>
+            </td>    
+            <td>
+                <span>13,203</span>
+            </td>
+            <td>
+                <div class="table__sparkline">
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Unique Visitor</span>
+            </td>
+            <td>
+                <span>13,203</span>
+            </td>
+            <td>
+                <div class="table__sparkline">
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Unique Visitor</span>
+            </td>
+            <td>
+                <span>13,203</span>
+            </td>
+            <td>
+                <div class="table__sparkline">
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Unique Visitor</span>
+            </td>
+            <td>
+                <span>13,203</span>
+            </td>
+            <td>
+                <div class="table__sparkline">
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Unique Visitor</span>
+            </td>
+            <td>
+                <span>13,203</span>
+            </td>
+            <td>
+                <div class="table__sparkline">
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>Unique Visitor</span>
+            </td>
+            <td>
+                <span>13,203</span>
+            </td>
+            <td>
+                <div class="table__sparkline">
+                    
+                </div>
+            </td>
+        </tr>     
+    </table>
+
+
+
+    <!-- <canvas id="myChart" width="10" height="10"></canvas> -->
+    <h1>Graficos villajuan</h1>
+    
+    <div class="caja">
+        <div class="caja__grafico">
+            <div class="caja__grafico__titulo">
+                <div class="caja__titulo">
+                    <p>Website Analytics (Last 7 Days)</p>
+                </div>
+                <div class="caja__botones">
+                    <i class="fas fa-expand"></i>
+                    <i class="fas fa-undo-alt"></i>
+                    <i class="far fa-window-minimize"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                
+            </div>
+            <div class="caja__grafico__grafico">
+                
+            </div>
+        </div>
+        <canvas id="myChart" width="200" height="200"></canvas>
+    </div>
+
+    <!-- <script>
+        var ctx=document.getElementById("myChart").getContext("2d");
+        var myChart=new Chart(ctx,{
+            type: "line",
+            data: {
+                labels: ['colt1','colt2','colt3'],
+                datasets: [{
+                    label:'Num Datos',
+                    // data:[10,9,15],
+                    backgroundColor:[
+                        'red',
+                        'orange',
+                        'blue'
+                    ]
+                }]
+            },
+            options:{
+                scales:{
+                    yAxes:[{
+                        ticks:{
+                            beginAtZero:true
+                        }
+                    }]
+                }
+            }
+        })
+    </script> -->
+
+    
+<script>
+var ctx = document.getElementById('myChart');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        
+        labels: ['Dic 1', 'Dic 3', 'Dic 5', 'Dic 7', 'Dic 9', 'Dic 11',
+                'Dic 13','Dic 15','Dic 17','Dic 19','Dic 21','Dic 23','Dic 25'],
+        datasets: [
+            {
+                
+                label: '# of Votes',
+                data: [10, 6, 10, 12, 18, 20,22,23,25,24,22,27,26],
+                backgroundColor: '#07aa3d',
+                borderColor: '#07aa3d',
+                borderWidth: 2,
+                pointBorderColor: '#07aa3d',
+                // point: backgroundColor['red',
+                pointHoverBorderColor: "#04c14396",
+                pointHoverBorderWidth: 10,
+                
+            },
+            {
+                label: '2do votos',
+                data: [40, 50, 60, 62, 70, 79,83,88,94,99,120,100,150],
+                backgroundColor: '#0966e6',
+                borderColor: '#0966e6',
+                borderWidth:2,
+                pointBorderColor: '#0966e6',
+                pointHoverBorderColor: "#04c14396",
+                pointHoverBorderWidth: 10,
+                
+            }
+            
+        ]    
+    },
+    options: {
+        
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true,
+                    fontColor: "#ffffff",
+                },
+            gridLines:{
+                color:'black',
+            }
+            }],
+            xAxes:[{
+                ticks:{
+                    fontColor: "#ffffff",
+                },
+                gridLines:{
+                color:'black',
+            }
+            }]
+        },
+        
+        elements:{
+            line:{
+                fill: false,
+            },
+        },
+        legend:{
+            labels: {
+                fontColor: '#00000'
+            }
+
+        }
+    }
+});
+
+
+
+
+
+
+</script>
+</body>
+</html>
